@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 09 06:22:19 GMT 2023","Thu Nov 09 06:22:22 GMT 2023","3130","","example to-do app","","","","Verify user is able to click on company and about us",""
+"passed","Thu Nov 09 06:22:22 GMT 2023","Thu Nov 09 06:22:24 GMT 2023","2164","","example to-do app","","","","User is able to click on “Install” and then on “npm install cypress” and make sure the copied text is “npm install cypress --save-dev”",""
+"failed","Thu Nov 09 06:22:24 GMT 2023","Thu Nov 09 06:22:25 GMT 2023","463","","example to-do app","","","","User is able to click on “Product” and then “visual review”",""
+"passed","Thu Nov 09 06:22:11 GMT 2023","Thu Nov 09 06:22:19 GMT 2023","8196","","example to-do app","","","","Verify users are able to visit the website and able to scroll down to ""Loved by OSS""",""
+"passed","Thu Nov 09 06:22:25 GMT 2023","Thu Nov 09 06:22:28 GMT 2023","3727","","example to-do app","","","","User is able to click on “Product”, then “Smart Orchestration”, then scroll down to “Test Analytics” and see that the green circle is around “Test Analytics”",""
