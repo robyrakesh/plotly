@@ -1,7 +1,7 @@
 
 # Plotly 
 
-e2e tests for Cypress website targeting the contact form and search functionality. Tests are written using Cypress and JavaScript. Test report are generated using allure reports and all the test report and artifacts are stored in a github branch 'gh-pages'. Also, as part of this test, a free test reporting dashboard has been created using Allure and hosted on Github Pages
+e2e tests for Cypress website. Tests are written using Cypress and JavaScript. Test report are generated using allure reports and all the test report and artifacts are stored in a github branch 'gh-pages'. Also, as part of this test, a free test reporting dashboard has been created using Allure and hosted on Github Pages
 
 ## Allure Reports
 
