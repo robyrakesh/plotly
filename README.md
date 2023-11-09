@@ -7,7 +7,8 @@ e2e tests for Cypress website. Tests are written using Cypress and JavaScript. T
 
 There are few jobs defined in the e2e-tealbook.yml workflow, which will take care of creating a test report using allure and deploying it to the Github Page server. So, we have a publicliy available free test reporting dashboard which can be accessed by anyone. Link to the test report :- https://robyrakesh.github.io/plotly/
 
-![Uploading Screenshot 2023-11-09 at 2.08.10 AM.png…]()
+<img width="1496" alt="Screenshot 2023-11-09 at 2 08 10 AM" src="https://github.com/robyrakesh/plotly/assets/47828587/e4c8b459-82f4-4b20-9b80-f24aa9b45016">
+
 
 
 
