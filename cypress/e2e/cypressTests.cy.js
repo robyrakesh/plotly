@@ -27,7 +27,7 @@ describe('Plotly Assessment', () => {
   })
 
   it('User is able to click on “Install” and then on “npm install cypress” and make sure the copied text is “npm install cypress --save-dev”', () => {
-    cy.get('astro-island > .border').click({force:true});
+    cy.xpath('/html/body/main/section[1]/div[2]/div/div[2]/astro-island/button').click({force:true});
     cy.get('[data-cy="modal-install-copy"]').click({force: true});
     cy.window().then((win) => {
       win.navigator.clipboard.readText().then((text) => {
