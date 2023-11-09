@@ -37,7 +37,6 @@ describe('Plotly Assessment', () => {
   })
 
   it('User is able to click on “Product” and then “visual review”', () => {
-    cy.get('#dropdownProduct').trigger('mouseover')
     cy.get(':nth-child(5) > .grid > :nth-child(2) > .group > .font-secondary').click({force: true});
     cy.url().should('include', '#visual_reviews');
     cy.xpath('//*[@id="visual_reviews"]/div/div/p')
