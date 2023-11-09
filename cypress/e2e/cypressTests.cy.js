@@ -2,7 +2,7 @@
 // In your support/commands.js or support/index.js file
 
 
-describe('example to-do app', () => {
+describe('Plotly Assessment', () => {
   beforeEach(() => {
     cy.visit('/')
   })
