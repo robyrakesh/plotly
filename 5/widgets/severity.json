@@ -1,0 +1,1 @@
+[{"uid":"432d0c15d355c6a1","name":"User is able to click on “Install” and then on “npm install cypress” and make sure the copied text is “npm install cypress --save-dev”","time":{"start":1699511777244,"stop":1699511788836,"duration":11592},"status":"passed","severity":"normal"}]
