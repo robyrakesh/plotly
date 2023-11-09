@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 09 06:52:56 GMT 2023","Thu Nov 09 06:53:01 GMT 2023","5606","","Plotly Assessment","","","","User is able to click on “Product”, then “Smart Orchestration”, then scroll down to “Test Analytics” and see that the green circle is around “Test Analytics”",""
+"passed","Thu Nov 09 06:52:01 GMT 2023","Thu Nov 09 06:52:12 GMT 2023","11063","","Plotly Assessment","","","","Verify users are able to visit the website and able to scroll down to ""Loved by OSS""",""
+"failed","Thu Nov 09 06:52:18 GMT 2023","Thu Nov 09 06:52:50 GMT 2023","32457","","Plotly Assessment","","","","User is able to click on “Install” and then on “npm install cypress” and make sure the copied text is “npm install cypress --save-dev”",""
+"passed","Thu Nov 09 06:52:50 GMT 2023","Thu Nov 09 06:52:55 GMT 2023","5247","","Plotly Assessment","","","","User is able to click on “Product” and then “visual review”",""
+"passed","Thu Nov 09 06:52:12 GMT 2023","Thu Nov 09 06:52:18 GMT 2023","5616","","Plotly Assessment","","","","Verify user is able to click on company and about us",""
