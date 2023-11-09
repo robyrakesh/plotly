@@ -37,7 +37,7 @@ describe('example to-do app', () => {
   })
 
   it('User is able to click on “Product” and then “visual review”', () => {
-    cy.get('[data-cy="dropdown-product"]').trigger('mouseover')
+    cy.get('#dropdownProduct').trigger('mouseover')
     cy.get(':nth-child(5) > .grid > :nth-child(2) > .group > .font-secondary').click();
     cy.url().should('include', '#visual_reviews');
     cy.xpath('//*[@id="visual_reviews"]/div/div/p')
