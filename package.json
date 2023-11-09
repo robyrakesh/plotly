@@ -1,0 +1,19 @@
+{
+  "name": "plotly",
+  "version": "1.0.0",
+  "description": "e2e tests on cypress webapp",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --headless --browser chrome --env allure=true",
+    "clean:folders": "rm -R -f allure-report/ && rm -R -f allure-results/",
+    "allure:report": "allure generate allure-results — clean -o allure-report && allure open allure-report"
+  },
+  "author": "Rakesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.38.3",
+    "allure-commandline": "^2.24.1",
+    "cypress": "^12.4.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
